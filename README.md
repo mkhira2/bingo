@@ -11,7 +11,5 @@
 ```
 git clone https://github.com/mkhira2/bingo.git
 cd bingo
-npm install
-npm start
-
-open localhost:3000 in the browser
+open index.html
+```
