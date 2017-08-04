@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'HUGE-AvantGarde-Bold', 'AvantGarde', 'HUGE Avant Garde Bold', 'Futura', sans-serif;
+}
+
+.bingo {
+  display: grid;
+  max-width: 1100px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin: auto;
+}
+
+.square {
+  border: 1px solid gray;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+  
+  .selected {
+    background: hotpink;
+    color: white;
+}
